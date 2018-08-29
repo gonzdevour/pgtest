@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8" ?>
 <widget id="com.iegoart.lcs" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
 	<name>pgtest</name>
-	<description>test</description>
+	<description>pgtest</description>
 	<author href="http://www.iegoart.com/" email="maplelin0919@gmail.com">playone</author>
 
 	<icon src="www/icon-256.png" width="256" height="256" density="xxxhdpi" />
@@ -21,6 +21,15 @@
 	<preference name="deployment-target" value="9.0" />
 	<preference name="android-minSdkVersion" value="21" />
 	<access origin="*" />
+
+	<plugin name="cordova-custom-config" />
+	<plugin name="cordova-plugin-camera" />
+	<plugin name="cordova-plugin-file" />
+	<plugin name="cordova-plugin-inappbrowser" />
+	<plugin name="cordova-plugin-statusbar" />
+	<plugin name="cordova-plugin-whitelist" />
+	<plugin name="cordova-plugin-wkwebview-engine" />
+
 
 	<engine name="ios" />
 	<engine name="android" />
